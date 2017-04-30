@@ -36,7 +36,7 @@ class SignUp(object):
         self.driver.get(self.url)
         time.sleep(5) 
         self.driver.find_element_by_xpath(self.submit).click()
-        time.sleep(3)
+        time.sleep(10)
         #alert
         alert=self.driver.switch_to_alert()
         alert.accept()
