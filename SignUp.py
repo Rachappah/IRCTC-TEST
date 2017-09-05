@@ -114,7 +114,7 @@ class SignUp(object):
         self.driver.find_element_by_xpath(".//*[@id='userRegistrationForm:street']").send_keys("14th cross vijayanagar")   
         time.sleep(4)
         self.driver.find_element_by_xpath(".//*[@id='userRegistrationForm:area']").send_keys("Vijayanagar/Bangalore")
-        time.sleep(3)
+        time.sleep(8)
         #select country
         e4=self.driver.find_element_by_xpath(".//*[@id='userRegistrationForm:countries']")
         e4.click()
